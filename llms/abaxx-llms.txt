@@ -1,0 +1,19 @@
+# Abaxx
+
+> Abaxx Technologies is a financial software and market-infrastructure company whose principal operating business, Abaxx Exchange, is a centrally-cleared commodity futures and derivatives exchange in Singapore focused on energy-transition commodities: Energy (LNG), Environmental (carbon), Battery Materials, and Precious Metals. Abaxx also operates Abaxx Clearing and develops SMX smart-data technology. Abaxx Technologies is publicly listed (Cboe Canada: ABXX; OTCQX: ABXXF).
+
+## About
+- [Abaxx Technologies](https://www.abaxx.tech): Parent company website (Cboe Canada: ABXX).
+- [Abaxx Exchange](https://abaxx.exchange): Centrally-cleared commodity futures & derivatives exchange.
+- [Contact](https://abaxx.exchange/about/contact): Exchange contact / support.
+
+## Markets & Trading
+- [Trading Platform (login)](https://markets.abaxx.exchange): Member trading and market-data platform (authentication required).
+- [Market Data](https://abaxx.exchange/market-data): Market-data access and distribution.
+
+## Market Data Distribution
+- [TradingView](https://www.tradingview.com/blog/en/access-abaxx-futures-data-on-tradingview-54777/): Abaxx futures data on TradingView (ABAXX: symbol prefix).
+- [ipushpull](https://abaxx.exchange/market-data/ipushpull): Real-time market data into Microsoft Excel via the ipushpull add-in.
+
+## Notes
+- No public developer portal, OpenAPI/FIX specification, SDKs, CLI or MCP server were published at profiling time; connectivity is arranged through member/broker onboarding.

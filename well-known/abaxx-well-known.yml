@@ -1,0 +1,32 @@
+generated: '2026-07-17'
+method: searched
+source: live probe of /.well-known/ on provider hosts
+note: >-
+  All probed /.well-known/ discovery paths returned 404 on both hosts. No
+  discovery documents were published at probe time. Absence is valid recorded
+  data; no WellKnown/SecurityTxt pointer is wired because nothing returned 200.
+hosts:
+- host: https://www.abaxx.tech
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://abaxx.exchange
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

@@ -1,7 +1,22 @@
 aid: abaxx
 name: Abaxx
-description: Abaxx is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Abaxx Technologies is a financial software and market infrastructure company
+  whose principal operating business, Abaxx Exchange, is a centrally-cleared
+  commodity futures and derivatives exchange headquartered in Singapore and
+  focused on energy-transition commodities across four markets: Energy (LNG),
+  Environmental (carbon credits), Battery Materials (nickel, lithium), and
+  Precious Metals. Abaxx Clearing (Abaxx Singapore Clearing Corporation)
+  centrally clears the contracts, and the group also develops SMX (smart
+  data / consensus-formation) technology. Trading runs on the markets.abaxx.exchange
+  platform; market data is distributed to third parties including TradingView
+  (ABAXX: symbol prefix), ipushpull (Microsoft Excel add-in) and LSEG/Refinitiv.
+  Abaxx Technologies is publicly listed (Cboe Canada: ABXX; OTCQX: ABXXF). Abaxx
+  does not currently publish a public developer portal, OpenAPI/FIX specification,
+  SDKs or an MCP server; connectivity is arranged through member/broker
+  onboarding. This profile originated as an earlybird portfolio lead in the API
+  Evangelist network and has been enriched with verified public identity and
+  security-posture signals.
 url: https://raw.githubusercontent.com/api-evangelist/abaxx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,55 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.abaxx.tech/favicon.ico
 tags:
 - Company
+- Commodities
+- Futures
+- Derivatives
+- Exchange
+- Clearing
+- Market Data
+- Energy
+- Trading
+- Financial Services
 apis: []
+common:
+- type: DomainSecurity
+  url: security/abaxx-domain-security.yml
+- type: Website
+  url: https://www.abaxx.tech
+- type: Exchange
+  url: https://abaxx.exchange
+- type: Login
+  url: https://markets.abaxx.exchange
+- type: MarketData
+  url: https://abaxx.exchange/market-data
+- type: Support
+  url: https://abaxx.exchange/about/contact
+- type: LLMsTxt
+  url: llms/abaxx-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
